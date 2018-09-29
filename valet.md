@@ -1,17 +1,17 @@
-# Laravel Valet
+# لارافيل Valet
 
-- [Introduction](#introduction)
-    - [Valet Or Homestead](#valet-or-homestead)
-- [Installation](#installation)
-    - [Upgrading](#upgrading)
-- [Serving Sites](#serving-sites)
-    - [The "Park" Command](#the-park-command)
-    - [The "Link" Command](#the-link-command)
-    - [Securing Sites With TLS](#securing-sites)
-- [Sharing Sites](#sharing-sites)
-- [Custom Valet Drivers](#custom-valet-drivers)
-    - [Local Drivers](#local-drivers)
-- [Other Valet Commands](#other-valet-commands)
+- [مقدمة](#introduction)
+    - [Valet أو Homestead](#valet-or-homestead)
+- [تثبيت](#installation)
+    - [الترقية](#upgrading)
+- [استضافة المواقع](#serving-sites)
+    - [أمر "Park"](#the-park-command)
+    - [أمر "Link"](#the-link-command)
+    - [تأمين المواقع باستخدام TLS](#securing-sites)
+- [مشاركة المواقع](#sharing-sites)
+- [تعريفات Valet المخصصة](#custom-valet-drivers)
+    - [التعريفات المحلية](#local-drivers)
+- [أوامر Valet الأخرى](#other-valet-commands)
 
 <a name="introduction"></a>
 ## Introduction
