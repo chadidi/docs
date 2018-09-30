@@ -14,15 +14,15 @@
 - [أوامر Valet الأخرى](#other-valet-commands)
 
 <a name="introduction"></a>
-## Introduction
+## مقدمة
 
-Valet is a Laravel development environment for Mac minimalists. No Vagrant, no `/etc/hosts` file. You can even share your sites publicly using local tunnels. _Yeah, we like it too._
+Valet هو بيئة لارافل للتطوير لمستخدمي الماك بأقل الموارد. دون Vagrant، دون ملف `/etc/hosts`. حتى أنه يمكنك مشاركة مواقعك مع العامة باستخدام الأنابيب المحلية. _طبعا يعجبنا نحن أيضا_.
 
-Laravel Valet configures your Mac to always run [Nginx](https://www.nginx.com/) in the background when your machine starts. Then, using [DnsMasq](https://en.wikipedia.org/wiki/Dnsmasq), Valet proxies all requests on the `*.test` domain to point to sites installed on your local machine.
+يقوم لارافيل Valet بإعداد جهاز الماك الخاص بك ليقوم بتشغيل [Nginx](https://www.nginx.com/) دائما في الخلفية عند تشغيل جهازك. ثم باستخدام [DnsMasq](https://en.wikipedia.org/wiki/Dnsmasq) يُحَـوِّل Valet كل الطلبات على النِّطاق `*.test` للإشارة إلى المواقع المُثَبَّـة على جهازك المحلي.
 
-In other words, a blazing fast Laravel development environment that uses roughly 7 MB of RAM. Valet isn't a complete replacement for Vagrant or Homestead, but provides a great alternative if you want flexible basics, prefer extreme speed, or are working on a machine with a limited amount of RAM.
+بعبارة أخرى، تطوير لارافيل على بيئة سريعة جدا تستخدم 7 ميغابايت من الذاكرة العشوائية على أكثر تقدير. Valet ليس بديلا كاملا عن Vagrant أو Homestead، ولكنه بديل جيد إذا كنت تريد بداية أساسية ومرنة، وكنت تفضل السرعة العالية أو تستخدم جهازا بذاكرة عشوائية محدودة.
 
-Out of the box, Valet support includes, but is not limited to:
+يأتي Valet مُجَهَّـزا لدعم الإضافات التالية، وغير محدود بها:
 
 <div class="content-list" markdown="1">
 - [Laravel](https://laravel.com)
@@ -48,7 +48,7 @@ Out of the box, Valet support includes, but is not limited to:
 - [Zend](https://framework.zend.com)
 </div>
 
-However, you may extend Valet with your own [custom drivers](#custom-valet-drivers).
+ومع ذلك، ربما تريد تعزيز Valet ب [تعريفاتك المخصصة](#custom-valet-drivers).
 
 <a name="valet-or-homestead"></a>
 ### Valet Or Homestead
