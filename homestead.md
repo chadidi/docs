@@ -109,7 +109,7 @@ You should check out a tagged version of Homestead since the `master` branch may
     cd ~/Homestead
 
     // Clone the desired release...
-    git checkout v7.17.0
+    git checkout v7.18.0
 
 Once you have cloned the Homestead repository, run the `bash init.sh` command from the Homestead directory to create the `Homestead.yaml` configuration file. The `Homestead.yaml` file will be placed in the Homestead directory:
 
@@ -404,6 +404,8 @@ Mailhog allows you to easily catch your outgoing email and examine it without ac
     MAIL_USERNAME=null
     MAIL_PASSWORD=null
     MAIL_ENCRYPTION=null
+
+Once Mailhog has been configured, you may access the Mailhog dashboard at `http://localhost:8025`.
 
 <a name="configuring-minio"></a>
 ### Configuring Minio
